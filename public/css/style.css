@@ -1,0 +1,243 @@
+html{
+    background-color: #ebebeb;
+    font-family:'Roboto', sans-serif;
+    padding: 0px;
+}
+header{
+    background-color: #eac926;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main{
+    width: 90%;
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+article{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    transition: all 500ms ease;
+}
+details{
+    border: solid 1px #ebebeb;
+    padding: 15px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+i{
+    color: #1259c3;
+}
+
+#titulares{
+    font-size: 24px;
+    width: 100%;
+}
+#precios{
+    font-size: 1em;
+    font-weight: bold;
+    width: 50%;
+}
+#descuento{
+    font-size: 0.8em;
+    text-align: left;
+    color: #39b54a;
+    width: 10%;
+    right: 10px;
+}
+#articulo{
+    display: none;
+}
+#texto{
+    font-size: 12px;
+}
+
+#navbar{
+    margin: 10px;
+    width: 40%;
+    display: none;
+}
+
+#envio{
+    margin: 0px;
+    padding: 0px;
+    color: #39b54a;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    top: -30px;
+    transform: rotate(0);
+    transition: all 500ms ease;
+}
+#envio:hover{
+    transform: rotate(-90deg);
+}
+
+#logo{
+    width: 40%;
+    margin: auto;
+}
+nav{
+    width: 40%;
+    padding: 2%;
+}
+#buscador{
+    border: 0px;
+    width: 80%;
+    height: 15px;
+    border-radius: 15px;
+}
+#pagos{
+    font-size: 0.6em;
+    margin: auto;
+}
+#superior{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#descripcion{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    padding: 15px;
+    border: solid 1px #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#menu{
+    background-color: #1259c3;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20%;
+}
+#barras{
+    text-align: right;
+    color: #ffffff;
+}
+
+#iconosFoot{
+    font-size: 2em;
+    transition: all 300ms ease;
+}
+#iconosFoot:hover{
+    color: #eac926;
+}
+
+#formulario{
+    font-size: 0.7em;
+    padding: 8%;
+    border: #ffffff;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 3%;
+}
+
+@media screen and (min-width: 361px){
+    /*tablet*/
+    #logo{
+        width: 20%;
+    }
+    nav{
+        width: 20%;
+        font-size: 0.5em;
+    }
+    #pagos{
+        font-size: 1em;
+        margin: auto;
+        font-size: 0.5em;
+    }
+
+    #descuento{
+        text-align: center;
+    }
+    #articulo{
+        display: inline;
+        text-align: left;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.3em;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #menu{
+        display: none;
+    }
+    article{
+        width: 45%;
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    /*desktop*/
+    article{
+        width: 20%;
+    }
+    #navbar{
+        font-size: 1em;
+    }
+    nav{
+        font-size: 1.2em;
+    }
+    #buscador{
+        height: 25px;
+    }
+    #pagos{
+        font-size: 1.2em;
+    }
+    #formulario{
+        padding: 2%;
+    }
+    #info{
+        width: 30%;
+        font-size: 1em;
+    }
+    footer{
+        justify-content: space-between;
+    }
+}
