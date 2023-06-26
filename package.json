@@ -1,18 +1,10 @@
 {
   "dependencies": {
-<<<<<<< HEAD
-    "express": "^4.18.2"
-=======
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
->>>>>>> c045c448702f43a61b6a7112f31f951e67dab927
   },
   "scripts": {
     "test": "nodemon app.js",
     "start": "node app.js"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c045c448702f43a61b6a7112f31f951e67dab927
