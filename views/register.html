@@ -11,9 +11,13 @@
 
 <header>
     <div id="superior">
+<<<<<<< HEAD
         <a href="/" id="contenedorLogo">
             <img id="logo" src="./images/logo-mercado-liebre.svg" alt="" srcset="">
         </a>
+=======
+        <img id="logo" src="./images/logo-mercado-liebre.svg" alt="" srcset="">
+>>>>>>> c045c448702f43a61b6a7112f31f951e67dab927
 
         <nav>
             <input id="buscador" type="text" name="busquedaUsuario">
@@ -54,6 +58,7 @@
 <main>
 
     <form action="" method="post" id="formulario">
+<<<<<<< HEAD
         <div id="acomodoCampo">
             <label for="nombre">Nombre: </label>
             <input type="text" name="nombreUsuario">
@@ -77,6 +82,31 @@
         </div>
         <div id="acomodoCampo">
             <label for="interes">Elija una o mas categorias de su interes: </label>
+=======
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombreUsuario">
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellidoUsuario">
+        </div>
+        <div>
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fechaNacimiento">
+        </div>
+        <div>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" name="domicilioUsuario">
+        </div>
+        <div>
+            <label for="perfil">Quiere comprar o vender?</label>
+            <input type="radio" name="perfilUsuario" value="comprar">Comprar
+            <input type="radio" name="perfilUsuario" value="vender">Vender
+        </div>
+        <div>
+            <label for="interes">Elija una o mas categorias de su interes:</label>
+>>>>>>> c045c448702f43a61b6a7112f31f951e67dab927
             <select name="categorias">
                 <option value="electro">Electro</option>
                 <option value="moda">Moda</option>
@@ -85,6 +115,7 @@
                 <option value="vidaSana">Vida sana</option>
             </select>
         </div>
+<<<<<<< HEAD
         <div id="acomodoCampo">
             <label for="foto">Foto de perfil: </label>
             <input type="file" accept=".jpg">
@@ -101,6 +132,24 @@
             <button type="submit">Enviar</button>
         </span>
         <span id="acomodoCampo">
+=======
+        <div>
+            <label for="foto">Foto de perfil:</label>
+            <input type="file" accept=".jpg">
+        </div>
+        <div>
+            <label for="clave">Clave de acceso:</label>
+            <input type="password" name="ingresoClave">
+        </div>
+        <div>
+            <label for="confirmarClave">Ingrese nuevamente su clave de acceso:</label>
+            <input type="password" name="reingresoClave">
+        </div>
+        <span>
+            <button type="submit">Enviar</button>
+        </span>
+        <span>
+>>>>>>> c045c448702f43a61b6a7112f31f951e67dab927
             <button type="reset">Cancelar</button>
         </span>
     </form>
